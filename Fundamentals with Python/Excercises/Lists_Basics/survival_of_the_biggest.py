@@ -6,6 +6,6 @@ for element in list_of_nums:
 remover = int(input())
 for _ in range(remover):
     numeric_list.remove(min(numeric_list))
-print(numeric_list)
+print(*numeric_list, sep=", ")
 
 
