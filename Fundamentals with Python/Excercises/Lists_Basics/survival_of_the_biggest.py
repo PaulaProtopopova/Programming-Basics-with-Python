@@ -20,4 +20,4 @@ numbers = list(map(int, input().split()))
 remover = int(input())
 for _ in range(remover):
     numbers.remove(min(numbers))
-print(*numbers, end=" ")
+print(*numbers, sep=", ")
