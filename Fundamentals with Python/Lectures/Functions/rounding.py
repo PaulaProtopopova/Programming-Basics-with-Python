@@ -2,15 +2,22 @@
 # Write a program that rounds all the given numbers, separated by a single space, and prints the result as a list.
 # Use round().
 
-list = input().split()
-rounded_lst = []
+def rounded_list_of_numbers(string):
+    lst = string.split()
+    rounded_list = []
+    for element in lst:
+        rounded_list.append(round(float(element)))
+    return rounded_list
 
 
-for element in list:
-    number = float(element)
-    rounded_lst.append(round(number))
+string = input()
+print(rounded_list_of_numbers(string))
 
-print(rounded_lst)
+
+
+
+
+
 
 
 
