@@ -7,6 +7,7 @@
 
 
 
+
 def loading_bar(some_number):
     loading_bar = ['.''.''.''.''.''.''.''.''.''.']
     percents_count = some_number // 10
